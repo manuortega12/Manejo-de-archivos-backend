@@ -1,7 +1,7 @@
 import {promises as fs} from "fs"
 
 
-class ProductManager {
+export default class ProductManager {
     constructor() {
         this.patch = "./productos.txt"
         this.products = []
@@ -63,23 +63,34 @@ class ProductManager {
 }
 
 
-const productos = new ProductManager
+//const productos = new ProductManager
 
 // productos.addProduct("Titulo1", "Descripcion1", 1000, "Imagen1", "abc123", 5)
 // productos.addProduct("Titulo2", "Descripcion2", 1000, "Imagen2", "abc123", 10)
 // productos.addProduct("Titulo3", "Descripcion3", 1000, "Imagen3", "abc123", 15)
+// productos.addProduct("Titulo4", "Descripcion4", 1000, "Imagen4", "abc123", 20)
+// productos.addProduct("Titulo5", "Descripcion5", 1000, "Imagen5", "abc123", 30)
+// productos.addProduct("Titulo6", "Descripcion6", 1000, "Imagen6", "abc123", 60)
+// productos.addProduct("Titulo7", "Descripcion7", 1000, "Imagen7", "abc123", 5)
+// productos.addProduct("Titulo8", "Descripcion8", 1000, "Imagen8", "abc123", 30)
+// productos.addProduct("Titulo9", "Descripcion9", 1000, "Imagen9", "abc123", 15)
+// productos.addProduct("Titulo10", "Descripcion10", 1000, "Imagen10", "abc123", 25)
+
+
 
 //productos.getProduct()
 //productos.getProductById(1)
 //productos.deleteProductsById(2)
 
-productos.updateProducts ({
-    title: 'Titulo1',
-    description: 'Descripcion1',
-    precio: 4500,
-    imagen: 'Imagen1',
-    code: 'abc123',
-    stock: 5,
-    id: 1
-})
+// productos.updateProducts ({
+//     title: 'Titulo1',
+//     description: 'Descripcion1',
+//     precio: 4500,
+//     imagen: 'Imagen1',
+//     code: 'abc123',
+//     stock: 5,
+//     id: 1
+// })
+
+
 

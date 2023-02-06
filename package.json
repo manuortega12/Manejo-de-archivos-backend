@@ -1,4 +1,28 @@
 {
-    "type":"module"
-
+  "type": "module",
+  "name": "filesystem",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuortega12/Manejo-de-archivos-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuortega12/Manejo-de-archivos-backend/issues"
+  },
+  "homepage": "https://github.com/manuortega12/Manejo-de-archivos-backend#readme",
+  "description": "",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
